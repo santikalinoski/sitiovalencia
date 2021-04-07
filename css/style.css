@@ -1,0 +1,365 @@
+/*STYLE.SCSS*/
+/*VARIABLES*/
+/*Colores*/
+/*Header*/
+header {
+  color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: outset 1px #0d0d0d;
+  background-image: linear-gradient(to right, #5e305a, #84437f, #9e5098);
+  font-size: 100%;
+  font-weight: bolder;
+  overflow: auto;
+  padding: 0%, 0%, 0%, 0%; }
+  header li {
+    list-style: none; }
+    header li a {
+      color: #f2f2f2;
+      text-decoration: none; }
+  header .barradenavegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 1%;
+    margin-bottom: 1%; }
+  header .items {
+    margin: 2%;
+    height: 5%;
+    text-align: center;
+    justify-items: center; }
+  header .items:hover {
+    transform: scale(1.2);
+    transition: 1s; }
+  header .items a:hover {
+    color: #f2f2f2; }
+
+/*BODY Y MAIN*/
+body {
+  background-image: url(https://cdn.wallpapersafari.com/5/96/7C9ngf.png); }
+
+main h1 {
+  color: #0d0d0d;
+  font-style: normal;
+  font-family: 'Montserrat', monospace;
+  font-size: 3.5em;
+  font-weight: 1000;
+  text-align: center;
+  margin-bottom: 2%; }
+
+main h2 {
+  color: #595959;
+  font-style: italic;
+  font-family: 'Montserrat', monospace;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: start; }
+
+main section {
+  color: #0d0d0d;
+  font-style: normal;
+  font-family: 'Montserrat', monospace;
+  font-size: 150%;
+  font-weight: 600;
+  text-align: justify; }
+
+/*FOOTER*/
+footer {
+  color: #f2f2f2;
+  border: solid 1px black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100%;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: linear-gradient(to bottom, #ab57a5, #5e305a); }
+
+#gridfooter {
+  display: grid;
+  grid-template-areas: "ubicacion ubicacion mapa" "logoig contactoig mapa" "logotw contactotw mapa" "logowpp contactowpp mapa";
+  grid-template-columns: 1fr 2fr 8fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center; }
+  #gridfooter .footerubicacion {
+    grid-area: ubicacion;
+    font-size: 130%; }
+  #gridfooter .footermapa {
+    grid-area: mapa;
+    width: 95%;
+    height: 95%; }
+  #gridfooter .footerlogoig {
+    grid-area: logoig;
+    text-align: right; }
+  #gridfooter .footercontactoig {
+    grid-area: contactoig;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+  #gridfooter .footerlogotw {
+    grid-area: logotw;
+    text-align: right; }
+  #gridfooter .footercontactotw {
+    grid-area: contactotw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+  #gridfooter .footerlogowpp {
+    grid-area: logowpp;
+    text-align: right; }
+  #gridfooter .footercontactowpp {
+    grid-area: contactowpp;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left; }
+
+/*ESTILOS ESPECIFICOS*/
+/*index.html*/
+#inicio {
+  margin-left: 5%;
+  margin-right: 2%; }
+  #inicio #iniciotexto {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  #inicio #iniciovideo {
+    text-align: right;
+    margin-left: 5%;
+    margin: 2em;
+    padding: 0px; }
+
+/*trabajos.html*/
+#trabajos #trabajosintro {
+  border-bottom: solid 3px #84437f;
+  background-color: #f2f2f2; }
+  #trabajos #trabajosintro #trabajosintrotexto #trabajosintrotextotitulo {
+    margin-top: 25%; }
+  #trabajos #trabajosintro #trabajosintrotexto #trabajosintrotextoparrafo {
+    margin-top: 5%; }
+
+#trabajos #trabajossector1 {
+  margin-top: 5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-bottom: solid 2px #ea77e1; }
+  #trabajos #trabajossector1 #trabajossector1row1 #trabajossector1row1foto1 {
+    border: groove 8px #ab57a5;
+    padding: 0; }
+  #trabajos #trabajossector1 #trabajossector1row1 #trabajossector1row1foto2 {
+    border: groove 10px #9e5098;
+    padding: 0; }
+  #trabajos #trabajossector1 #trabajossector1row1 #trabajossector1row1texto {
+    margin-top: 5%; }
+  #trabajos #trabajossector1 #trabajossector1row2 {
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    #trabajos #trabajossector1 #trabajossector1row2 #trabajossector1row2foto1 {
+      border: groove 10px #9e5098;
+      padding: 0; }
+    #trabajos #trabajossector1 #trabajossector1row2 #trabajossector1row2foto2 {
+      border: groove 8px #ab57a5;
+      padding: 0; }
+    #trabajos #trabajossector1 #trabajossector1row2 #trabajossector1row2texto {
+      margin-top: 5%; }
+
+#trabajos #trabajossector2 {
+  margin-top: 5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  border-bottom: solid 2px #ea77e1; }
+  #trabajos #trabajossector2 #trabajossector2row1 #trabajossector2row1foto1 {
+    border: groove 10px #ab57a5;
+    padding: 0; }
+  #trabajos #trabajossector2 #trabajossector2row1 #trabajossector2row1foto2 {
+    border: groove 10px #9e5098;
+    padding: 0; }
+  #trabajos #trabajossector2 #trabajossector2row1 #trabajossector2row1texto {
+    margin-top: 5%; }
+
+#trabajos #trabajossector3 {
+  margin-top: 5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 15%; }
+  #trabajos #trabajossector3 #trabajossector3row1 #trabajossector3row1foto1 {
+    border: groove 10px #ab57a5;
+    padding: 0; }
+  #trabajos #trabajossector3 #trabajossector3row1 #trabajossector3row1foto2 {
+    border: groove 10px #9e5098;
+    padding: 0; }
+  #trabajos #trabajossector3 #trabajossector3row1 #trabajossector3row1texto {
+    margin-top: 5%; }
+
+/*cursos.html*/
+#cursos #cursosintro {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%; }
+
+#cursos #cursosinfo {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%; }
+  #cursos #cursosinfo #cursosinfotitulo {
+    margin-bottom: 5%;
+    font-size: 250%; }
+  #cursos #cursosinfo #cursosinfotabla {
+    color: #5e305a;
+    background-color: #ea77e1;
+    border: solid 3px #84437f;
+    width: 100%;
+    height: 70%;
+    font-size: 170%;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-align: left;
+    justify-content: space-around; }
+    #cursos #cursosinfo #cursosinfotabla #cursosinfotablatitulos {
+      font-size: 200%;
+      font-weight: 1000; }
+  #cursos #cursosinfo #cursosinfofoto {
+    border: groove 5px #595959;
+    padding: 0; }
+
+/*sobremi.html*/
+#sobremi #sobremiintro {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%; }
+
+#sobremi #quiensoy {
+  background-image: linear-gradient(to bottom, #9beadf, #00bfae);
+  margin: 50px;
+  padding: 40px; }
+  #sobremi #quiensoy #quiensoy__titulo {
+    color: black;
+    font-weight: 600;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px; }
+  #sobremi #quiensoy #quiensoy__parrafo--1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+  #sobremi #quiensoy #quiensoy__parrafo--2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+
+#sobremi #estudios {
+  background-image: linear-gradient(to bottom, #00bfae, #00998a);
+  margin: 50px;
+  padding: 40px; }
+  #sobremi #estudios #estudios__titulo {
+    color: black;
+    font-weight: 600;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px; }
+  #sobremi #estudios #estudios__parrafo--1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+  #sobremi #estudios #estudios__parrafo--2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+
+#sobremi #experiencia {
+  background-image: linear-gradient(to bottom, #00998a, #007367);
+  margin: 50px;
+  padding: 40px; }
+  #sobremi #experiencia #experiencia__titulo {
+    color: black;
+    font-weight: 600;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px; }
+  #sobremi #experiencia #experiencia__parrafo--1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+  #sobremi #experiencia #experiencia__parrafo--2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 10px; }
+
+/*contacto.html*/
+#contacto #contactointro {
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%; }
+
+#contacto #contactoprimerparte {
+  margin-left: 4%;
+  margin-right: 4%; }
+  #contacto #contactoprimerparte #contactosector1 {
+    margin-bottom: 0%;
+    padding: 5%;
+    color: #0d0d0d;
+    background-image: radial-gradient(#9beadf, #00998a);
+    border: groove 2px #0d0d0d;
+    text-align: start; }
+    #contacto #contactoprimerparte #contactosector1 #contactosector1parte1 {
+      margin-bottom: 2%; }
+    #contacto #contactoprimerparte #contactosector1 #contactosector1parte2 {
+      margin-bottom: 2%; }
+  #contacto #contactoprimerparte #contactosector2 {
+    margin-bottom: 0%;
+    padding: 5%;
+    color: #0d0d0d;
+    background-image: radial-gradient(#9beadf, #00998a);
+    border: groove 2px #0d0d0d;
+    text-align: start; }
+    #contacto #contactoprimerparte #contactosector2 #contactosector2parte1 {
+      margin-bottom: 2%; }
+    #contacto #contactoprimerparte #contactosector2 #contactosector2parte2 {
+      margin-bottom: 2%; }
+
+#contacto #contactosector3 {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  padding: 5%;
+  color: #0d0d0d;
+  text-align: end; }

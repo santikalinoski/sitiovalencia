@@ -1,0 +1,40 @@
+/*Header*/
+
+header{
+    color:$blanco;
+    font-family:'Montserrat', sans-serif;
+    border-bottom: outset 1px $negro;
+    background-image: linear-gradient(to right,$violeta1, $violeta5, $violeta3);
+    font-size: 100%;
+    font-weight: bolder;
+    overflow: auto;
+    padding: 0%, 0%, 0%, 0%;
+    li{
+        list-style: none;
+        a{
+            color:$blanco;
+            text-decoration:none;
+        }
+    }
+    .barradenavegacion{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: left;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .items{
+        margin:2%;
+        height: 5%;
+        text-align: center;
+        justify-items: center;
+    }
+    .items:hover{
+        transform: scale(1.2);
+        transition: 1s;
+    }
+    .items a:hover{
+        color: $blanco;
+    }
+}

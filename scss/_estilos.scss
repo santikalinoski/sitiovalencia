@@ -1,0 +1,311 @@
+/*ESTILOS ESPECIFICOS*/
+
+/*index.html*/
+#inicio{
+    margin-left: 5%;
+    margin-right: 2%;
+    #iniciotexto{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #iniciovideo{
+        text-align: right;
+        margin-left: 5%;
+        margin: 2em;
+        padding: 0px;
+    }
+}
+
+
+
+/*trabajos.html*/
+#trabajos{
+    #trabajosintro{
+        border-bottom: solid 3px $violeta5;
+        background-color: $blanco;
+        #trabajosintrotexto{
+            #trabajosintrotextotitulo{
+                margin-top: 25%;
+            }
+            #trabajosintrotextoparrafo{
+                margin-top:5%;            
+            }
+        }
+    }
+    #trabajossector1{
+        margin-top: 5%;
+        margin-left: 2em;
+        margin-right: 2em;
+        border-bottom: solid 2px $violeta2;
+        #trabajossector1row1{
+            #trabajossector1row1foto1{
+                border: groove 8px $violeta4;
+                padding: 0;
+            }
+            #trabajossector1row1foto2{
+                border: groove 10px $violeta3;
+                padding: 0;
+            }
+            #trabajossector1row1texto{
+                margin-top: 5%;
+            }
+        }
+        #trabajossector1row2{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            #trabajossector1row2foto1{
+                border: groove 10px $violeta3;
+                padding: 0;
+            }
+            #trabajossector1row2foto2{
+                border: groove 8px $violeta4;
+                padding: 0;
+            }
+            #trabajossector1row2texto{
+                margin-top: 5%;
+            }
+        }
+    }
+    #trabajossector2{
+        margin-top: 5%;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+        border-bottom: solid 2px $violeta2;
+        #trabajossector2row1{
+            #trabajossector2row1foto1{
+                border: groove 10px $violeta4;
+                padding: 0;
+            }
+            #trabajossector2row1foto2{
+                border: groove 10px $violeta3;
+                padding: 0;
+            }
+            #trabajossector2row1texto{
+                margin-top: 5%;
+            }
+        }
+    }
+    #trabajossector3{
+        margin-top: 5%;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 15%;
+        #trabajossector3row1{
+            #trabajossector3row1foto1{
+                border: groove 10px $violeta4;
+                padding: 0;
+            }
+            #trabajossector3row1foto2{
+                border: groove 10px $violeta3;
+                padding: 0;
+            }
+            #trabajossector3row1texto{
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
+
+
+/*cursos.html*/
+#cursos{
+    #cursosintro{
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }
+    #cursosinfo{
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 3%;
+        #cursosinfotitulo{
+            margin-bottom: 5%;
+            font-size: 250%;
+        }
+        #cursosinfotabla{
+            color: $violeta1;
+            background-color: $violeta2;
+            border: solid 3px $violeta5;
+            width: 100%;
+            height: 70%;
+            font-size: 170%;
+            font-weight: 600;
+            font-family: 'Montserrat';
+            text-align: left;
+            justify-content: space-around;
+            #cursosinfotablatitulos{
+                font-size: 200%;
+                font-weight: 1000;
+            }
+        }
+        #cursosinfofoto{
+            border: groove 5px $grisoscuro;
+            padding: 0;
+        }
+    }
+}
+
+
+
+/*sobremi.html*/
+#sobremi{
+    #sobremiintro{
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }
+    #quiensoy{
+        background-image: linear-gradient(to bottom, $verdeagua1, $verdeagua2);
+        margin: 50px;
+        padding: 40px;
+        #quiensoy__titulo{
+            color: black;
+            font-weight: 600;
+            font-size: 150%;
+            font-family:'Montserrat', sans-serif;
+            text-align: left;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        #quiensoy__parrafo--1{
+            color: black;
+            font-weight: bolder;
+            font-size: 100%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+        #quiensoy__parrafo--2{
+            color: black;
+            font-weight: bolder;
+            font-size: 120%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+    }
+    #estudios{
+        background-image: linear-gradient(to bottom, $verdeagua2, $verdeagua3);
+        margin: 50px;
+        padding: 40px;
+        #estudios__titulo{
+            color: black;
+            font-weight: 600;
+            font-size: 150%;
+            font-family:'Montserrat', sans-serif;
+            text-align: left;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        #estudios__parrafo--1{
+            color: black;
+            font-weight: bolder;
+            font-size: 100%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+        #estudios__parrafo--2{
+            color: black;
+            font-weight: bolder;
+            font-size: 120%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+    }
+    #experiencia{
+        background-image: linear-gradient(to bottom, $verdeagua3, $verdeagua4);
+        margin: 50px;
+        padding: 40px;
+        #experiencia__titulo{
+            color: black;
+            font-weight: 600;
+            font-size: 150%;
+            font-family:'Montserrat', sans-serif;
+            text-align: left;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        #experiencia__parrafo--1{
+            color: black;
+            font-weight: bolder;
+            font-size: 100%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+        #experiencia__parrafo--2{
+            color: black;
+            font-weight: bolder;
+            font-size: 120%;
+            font-family:'Montserrat', sans-serif;
+            text-align: justify;
+            line-height: 1.3;
+            padding: 10px;
+        }
+    }
+}
+
+
+
+/*contacto.html*/
+#contacto{
+    #contactointro{
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
+    #contactoprimerparte{
+        margin-left: 4%;
+        margin-right: 4%;
+        #contactosector1{
+            margin-bottom: 0%;
+            padding: 5%;
+            color: $negro;
+            background-image: radial-gradient($verdeagua1, $verdeagua3);
+            border: groove 2px $negro;
+            text-align: start;
+            #contactosector1parte1{
+                margin-bottom: 2%;
+            }
+            #contactosector1parte2{
+                margin-bottom: 2%;
+            }
+        }
+        #contactosector2{
+            margin-bottom: 0%;
+            padding: 5%;
+            color: $negro;
+            background-image: radial-gradient($verdeagua1, $verdeagua3);
+            border: groove 2px $negro;
+            text-align: start;
+            #contactosector2parte1{
+                margin-bottom: 2%;
+            }
+            #contactosector2parte2{
+                margin-bottom: 2%;
+            }
+        }
+    }
+    #contactosector3{
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 5%;
+        padding: 5%;
+        color: $negro;
+        text-align: end;
+    }
+}

@@ -1,0 +1,78 @@
+/*FOOTER*/
+
+footer {
+    color:$blanco;
+    border: solid 1px rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: linear-gradient(to bottom, $violeta4, $violeta1);
+
+}
+
+#gridfooter{
+    display: grid;
+    grid-template-areas:
+    "ubicacion ubicacion mapa"
+    "logoig contactoig mapa"
+    "logotw contactotw mapa"
+    "logowpp contactowpp mapa";
+    grid-template-columns: 1fr 2fr 8fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px ;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+    .footerubicacion{
+        grid-area:ubicacion;
+        font-size: 130%;
+    }
+    
+    .footermapa{
+    grid-area:mapa;
+    width: 95%;
+    height: 95%;
+    }
+    
+    .footerlogoig{
+    grid-area:logoig;
+    text-align: right;
+    }
+    
+    .footercontactoig{
+    grid-area:contactoig;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    }
+    
+    .footerlogotw{
+    grid-area:logotw;
+    text-align: right;
+    }
+    
+    .footercontactotw{
+    grid-area:contactotw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    }
+    
+    .footerlogowpp{
+    grid-area:logowpp;
+    text-align: right;
+    }
+    
+    .footercontactowpp{
+    grid-area:contactowpp;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    }
+}
